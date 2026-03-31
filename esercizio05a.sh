@@ -13,5 +13,5 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+ls ../immagini/vacanze/*.jpg
 

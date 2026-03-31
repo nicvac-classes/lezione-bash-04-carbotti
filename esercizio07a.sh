@@ -13,5 +13,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+ find ../ -name "*.txt"
+grep -rn "database" ../log 
+find -iname "*.java"

@@ -14,5 +14,7 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+grep "ERROR"  ../log/server.log
+grep "WARNING"  ../log/server.log | wc -l
+grep -E "ERROR|WARNING"../log/server.log  > problemi.txt
 

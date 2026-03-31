@@ -18,5 +18,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+grep -E "[0-9]{1,3}\.[0-9]" ../log/server.log
+grep -E "ERROR|WARNING" ../log/server.log
+grep -E -c "[0-9]{1,2}\:[0-9]" ../log/server.log
