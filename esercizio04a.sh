@@ -13,5 +13,10 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+cp ../documenti/note.txt ../archivio/note_archivio.txt
+ls ../documenti
+ls ../archivio
+#lettere mancante
+#ho spostato tutti i file .txt contenuti in ambiente/documenti e li ho portati in ambiente/sandbox
+cp *.txt ../sandbox
+ls ../sandbox
