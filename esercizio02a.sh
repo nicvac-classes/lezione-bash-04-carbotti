@@ -20,5 +20,5 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+mkdir -p azienda/{vendite,acquisti}/{nord,sud}
+tree azienda
