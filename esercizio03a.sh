@@ -13,5 +13,7 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+ls -l
+chmod u+x script_test.sh
+ls -l
+./script_test.sh
